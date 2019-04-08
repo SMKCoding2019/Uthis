@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bsignin"
+        >
+        <EditText
+                android:id="@+id/signin_edtemail"
+                android:layout_width="310dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="340dp"
+                android:layout_marginLeft="60dp"
+                android:hint="Email"
+        />
+        <EditText
+            android:id="@+id/signin_edtpassword"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="60dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+        />
+        <Button
+                android:id="@+id/signin_btnsignin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="90dp"
+                android:background="@drawable/signin"
+        />
+        <Button
+                android:id="@+id/signin_btncreatenow"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginTop="555dp"
+                android:layout_marginLeft="260dp"
+                android:background="@drawable/tcreatenow"
+        />
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:src="@drawable/tsignin"
+                   android:layout_marginTop="240dp"
+                   android:layout_marginLeft="113dp"
+        />
+</RelativeLayout>

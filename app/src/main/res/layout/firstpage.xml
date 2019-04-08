@@ -5,11 +5,31 @@
         android:layout_height="match_parent"
         android:background="@drawable/firstpage">
     <Button
+            android:id="@+id/firstpage_btngetstarted"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/getstarted"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="600dp"
+            android:visibility="gone"
+    />
+    <Button
+            android:id="@+id/firstpage_btnsignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="550dp"
+            android:visibility="gone"
+    />
+    <Button
+            android:id="@+id/firstpage_btnsignupwhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signupwhite"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="620dp"
+            android:visibility="gone"
     />
 
 </RelativeLayout>
